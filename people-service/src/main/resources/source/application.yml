@@ -1,0 +1,15 @@
+spring:
+  flyway:
+    enabled: false
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database: h2
+    generate-ddl: false
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    
+      
+
